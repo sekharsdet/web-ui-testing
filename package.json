@@ -1,0 +1,28 @@
+{
+  "name": "com.nord.ui",
+  "version": "1.0.0",
+  "description": "Web UI Testing with Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekharsdet/web-ui-testing.git"
+  },
+  "keywords": [
+    "Playwright",
+    "ui",
+    "testing",
+    "allure"
+  ],
+  "author": "Sekhar Uppari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekharsdet/web-ui-testing/issues"
+  },
+  "homepage": "https://github.com/sekharsdet/web-ui-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "allure-commandline": "^2.17.2",
+    "allure-playwright": "^2.0.0-beta.16"
+  }
+}
