@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 01 11:17:50 GMT 2022","Wed Jun 01 11:17:58 GMT 2022","8250","Firefox","tests/verifyDepartments.spec.js","Access Career Page:","","","Navigate to Career Page and verify the department count",""
+"passed","Wed Jun 01 11:18:06 GMT 2022","Wed Jun 01 11:18:14 GMT 2022","7377","Webkit","tests/verifyDepartments.spec.js","Access Career Page:","","","Navigate to Career Page and verify the department count",""
+"passed","Wed Jun 01 11:17:43 GMT 2022","Wed Jun 01 11:17:49 GMT 2022","6473","Chromium","tests/verifyDepartments.spec.js","Access Career Page:","","","Navigate to Career Page and select  Marketing department",""
+"passed","Wed Jun 01 11:17:38 GMT 2022","Wed Jun 01 11:17:43 GMT 2022","4143","Chromium","tests/verifyDepartments.spec.js","Access Career Page:","","","Navigate to Career Page and verify the department count",""
+"failed","Wed Jun 01 11:18:14 GMT 2022","Wed Jun 01 11:18:48 GMT 2022","34124","Webkit","tests/verifyDepartments.spec.js","Access Career Page:","","","Navigate to Career Page and select  Marketing department",""
+"passed","Wed Jun 01 11:17:58 GMT 2022","Wed Jun 01 11:18:05 GMT 2022","7323","Firefox","tests/verifyDepartments.spec.js","Access Career Page:","","","Navigate to Career Page and select  Marketing department",""
