@@ -1,0 +1,35 @@
+const { BasePage } = require("./BasePage");
+
+exports.CareerPage = class CareerPage extends BasePage {
+    constructor(page) {
+        super(page);
+
+        this.departments = '#deps';
+        this.departmentOptions = '#deps>option';
+        this.searchButton = '.js-search-button';
+        this.marketingHeader = 'h2.tesonet-marketing';
+    }
+
+    async goTo() {
+        await this.page.goto('/career');
+    }
+
+    async selectDepartment(department) {
+        await this.select(this.departments, department);
+        await this.click(this.searchButton);
+    }
+
+    async clickOnDepartmentsDropdown() {
+        await this.click(this.departments);
+    }
+
+
+     getDepartmentsCount() {
+        return this.page.locator(this.departmentOptions).count();
+    }
+
+    async getMarketingHeader() {
+        let title = await this.page.$eval(this.marketingHeader, el => el.textContent.trim());
+        return title;
+    }
+}
