@@ -16,6 +16,10 @@ const config = {
     { name: 'Firefox', use: { browserName: 'firefox' } },
     { name: 'Webkit', use: { browserName: 'webkit' } },
   ],
+  reporter: [
+    ['line'], 
+    ['allure-playwright']
+  ],
   launchOptions: {
     args: ['--start-maximized']
   }
